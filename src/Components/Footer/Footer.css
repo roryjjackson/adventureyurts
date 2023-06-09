@@ -1,0 +1,15 @@
+.footer {
+  border-top: solid var(--color1) 1px;
+  height: 30vh;
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+.footer-content-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
