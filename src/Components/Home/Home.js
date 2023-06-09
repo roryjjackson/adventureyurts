@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
+      <div className='design-section'>
         <div className="design-container">
           <div>
             <h3>We build wooden yurts</h3>
@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         <div class="info-layer">
           <div>
-            <h2>So why round?</h2>
+            <h2>Why are we building it?</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             <Link to="/about">
               <button className='button'>

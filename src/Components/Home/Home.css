@@ -51,6 +51,14 @@
   margin-top: 5px;
 }
 
+
+@media  only screen and (min-width: 1px) and (max-width: 1250px) {
+  .home-page, .home-page-about, .design-section {
+    padding: 0 10vw;
+  }
+
+}
+
 /* section 2 */
 
 .design-container {
