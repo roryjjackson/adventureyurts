@@ -1,20 +1,27 @@
 nav {
-  border: solid black 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1250px;
-  margin: 20px auto;
   background-color: var(--color1);
   color: var(--color2);
-  padding: 0 20px;
   border-radius: 10px;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+
+}
+
+.logo {
+  margin-left: 20px;
 }
 
 .navbar-list {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  margin-right: 20px;
 }
 
 .navbar-item {
