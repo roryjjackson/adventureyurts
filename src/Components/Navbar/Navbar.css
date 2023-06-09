@@ -1,0 +1,25 @@
+nav {
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1250px;
+  margin: 20px auto;
+  background-color: var(--color1);
+  color: var(--color2);
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar-item {
+  margin: 0 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
