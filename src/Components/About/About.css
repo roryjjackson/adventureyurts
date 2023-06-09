@@ -1,0 +1,43 @@
+.about-us {
+  height: 100vh;
+  margin-top: 20vh;
+}
+
+.about-info-container {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.about-info-container h2 {
+  opacity: .7;
+  font-weight: 200;
+}
+
+.about-info-container h1 {
+  font-size: 3rem;
+}
+
+.about-info-container p {
+  font-size: .8rem;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.about-image {
+  height: 40vh;
+  width: 30%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-image.drop {
+  height: 30vh;
+}
