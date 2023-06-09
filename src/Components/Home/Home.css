@@ -1,6 +1,31 @@
 .home-page {
-  background-image: url(https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg);
-  height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg);
+  height: 700px;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.home-page h1 {
+  font-size: 4rem;
+  margin-top: 10px;
+}
+
+.home-page h3 {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.home-page p {
+  font-weight: 300;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+.home-page-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
 }
