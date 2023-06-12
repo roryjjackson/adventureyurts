@@ -6,8 +6,20 @@ const Footer = () => {
   return(
     <div className='footer'>
       <div className='footer-content-container'>
-        <p>Copyright @AdventureYurts</p>
-        <p>Adventure Yurts</p>
+        <p>Adventure Yurts LOGO HERE</p>
+        <div>
+          <h3>Address</h3>
+          <p>20 Ridgewood Crescent</p>
+          <p>Newcastle Upon Tyne</p>
+          <p>NE3 1SQ</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>info@adventureyurts.com</p>
+          <p>07501044560</p>
+          <p>www.adventureyurts.com</p>
+          <p></p>
+        </div>
       </div>
     </div>
   );

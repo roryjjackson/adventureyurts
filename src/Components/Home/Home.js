@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home-page-container">
           <h3>Durable | Functional</h3>
           <h1>Adventure Yurts</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          <p>An all wood construction, highly engineered and super insulated. We provide a unique outdoor living space that can be used all year round</p>
           <div className='stats-container'>
             <div className='stat'>
               <h3><strong>4.98* Rating</strong></h3>
@@ -99,12 +99,12 @@ const Home = () => {
         </div>
         <div className='gallery-info'>
           <div>
-            <h3>Our first one!</h3>
+            <h3>At long last!</h3>
             <h2>Take a look at our <span className='highlighted-word'>first</span> project.</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <Link to="/contact">
+            <p>It's been a long time coming! Ever since the break out of the Covid-19 pandemic, we have felt the need to escape the confines of the house. Now finally we have our work from home office, winter games room and summer bbq party house all-in-one!</p>
+            <Link to="/gallery">
               <button className='button'>
-                Enquire now
+                Gallery
               </button>
             </Link>
           </div>
@@ -116,8 +116,8 @@ const Home = () => {
         </div>
         <div class="info-layer">
           <div>
-            <h2>The team behind it</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h2>The Team</h2>
+            <p>We are a small family run business, based in the North East. A Father and Son team combining their skills to create this entirely unique outdoor structure.</p>
             <Link to="/about">
               <button className='button'>
                 About us

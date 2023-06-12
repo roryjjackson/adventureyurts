@@ -135,6 +135,7 @@
 
 .home-page-our-service {
   background: linear-gradient(to right, var(--light-color1) 0, var(--light-color1) 30vw, var(--color1) 30vw, var(--color1) 100%);
+
 }
 
 .our-service-container {
@@ -178,7 +179,8 @@
 
 @media  only screen and (max-width: 1000px) {
   .home-page-our-service {
-    background: linear-gradient(to bottom, var(--light-color1) 0, var(--light-color1) 22vh, var(--color1) 22vh, var(--color1) 100%);
+    /* background: linear-gradient(to bottom, var(--light-color1) 0, var(--light-color1) 22vh, var(--color1) 22vh, var(--color1) 100%); */
+    background: var(--color1);
   }
   .our-service-container {
     display: block;
@@ -189,12 +191,25 @@
     padding: 0;
     text-align: center;
     height: auto;
-    padding: 25px 0 25px;
+    padding: 25px 0 50px;
+    justify-content: space-between;
   }
 
   .service-left {
-    padding: 25px 0 25px;
+    display: block;
+    width: 100%;
+    text-align: left;
     height: auto;
+    margin: auto 0;
+    color: var(--color2);
+  }
+
+  .service-left p {
+    margin-bottom: 0;
+    padding-top: 50px;
+  }
+  .service-left h2 {
+    margin-bottom: 0;
   }
 }
 
