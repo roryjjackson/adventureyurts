@@ -7,10 +7,12 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
 import Gallery from '../Gallery/Gallery';
+import ScrollToTop from './ScrollToTop';
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

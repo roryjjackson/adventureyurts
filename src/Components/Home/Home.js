@@ -50,9 +50,11 @@ const Home = () => {
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1686303824/image8_urinth.jpg" alt="" className='design-image'></img>
         </div>
         <div>
-          <button className='button gallery'>
-            Gallery
-          </button>
+          <Link to="/gallery">
+            <button className='button gallery'>
+              Gallery
+            </button>
+          </Link>
         </div>
       </div>
 
