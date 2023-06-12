@@ -6,7 +6,7 @@ const Footer = () => {
   return(
     <div className='footer'>
       <div className='footer-content-container'>
-        <p>Adventure Yurts LOGO HERE</p>
+        <p>LOGO HERE</p>
         <div>
           <h3>Address</h3>
           <p>20 Ridgewood Crescent</p>

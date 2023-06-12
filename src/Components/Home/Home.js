@@ -75,30 +75,38 @@ const Home = () => {
           </div>
           <div className='service-right'>
             <div className='stage'>
-              <h3>01.</h3>
-              <p>Chat With Us</p>
-              <Link to="/contact">
+              <div className='stage-content'>
+                <h3>01.</h3>
+                <p>Chat With Us</p>
+              </div>
+              <Link to="/contact" className='stage-button'>
                 <button class="button spec">Contact</button>
               </Link>
             </div>
             <div className='stage'>
-              <h3>02.</h3>
-              <p>Finalize Design</p>
-              <Link to="/">
+              <div className='stage-content'>
+                <h3>02.</h3>
+                <p>Finalize Design</p>
+              </div>
+              <Link to="/" className='stage-button'>
                 <button class="button spec">Specs</button>
               </Link>
             </div>
             <div className='stage'>
-              <h3>03.</h3>
-              <p>Installation</p>
-              <Link to="/gallery">
+              <div className='stage-content'>
+                <h3>03.</h3>
+                <p>Installation</p>
+              </div>
+              <Link to="/gallery" className='stage-button'>
                 <button class="button spec">Gallery</button>
               </Link>
             </div>
             <div className='stage'>
-              <h3>04.</h3>
-              <p>Enjoy it!</p>
-              <Link to="/contact">
+              <div className='stage-content'>
+                <h3>04.</h3>
+                <p>Enjoy it!</p>
+              </div>
+              <Link to="/contact" className='stage-button'>
                 <button class="button spec">Follow</button>
               </Link>
             </div>

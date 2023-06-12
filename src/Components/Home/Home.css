@@ -49,7 +49,11 @@
   margin-top: 5px;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .home-page-container h1 {
+    font-size: 4rem;
+  }
+}
 
 
 @media  only screen and (min-width: 1px) and (max-width: 1250px) {
@@ -128,6 +132,17 @@
   margin-bottom: 10vh;
 }
 
+@media only screen and (max-width: 600px) {
+  .design-container {
+    display: block;
+  }
+
+  .design-container p {
+    max-width: 100%;
+  }
+
+}
+
 /* about section */
 /* NOTE: css for layers is in index.css  */
 
@@ -198,11 +213,11 @@
   text-align: center;
 }
 
-@media  only screen and (max-width: 1000px) {
+@media  only screen and (min-width: 1px) and (max-width: 1000px) {
   .home-page-our-service {
-    /* background: linear-gradient(to bottom, var(--light-color1) 0, var(--light-color1) 22vh, var(--color1) 22vh, var(--color1) 100%); */
     background: var(--color1);
   }
+
   .our-service-container {
     display: block;
   }
@@ -214,10 +229,10 @@
     height: auto;
     padding: 25px 0 50px;
     justify-content: space-between;
+    /* display: block; */
   }
 
   .service-left {
-    display: block;
     width: 100%;
     text-align: left;
     height: auto;
@@ -234,6 +249,28 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .service-right {
+    display: block !important;
+  }
+
+  .stage {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+  }
+
+  .stage-content  {
+    text-align: left;
+    width: 30vw;
+  }
+
+  .stage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* gallery section  */
 
 .home-page-gallery {
@@ -296,4 +333,33 @@
   /* box-shadow: 1px 1px 2px rgba(0,0,0,0.4); */
   border-radius: 10px;
 
+}
+
+@media only screen and (max-width: 600px) {
+  .home-page-gallery {
+    display: block;
+  }
+
+  .gallery-image-container {
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+
+  .gallery-image {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+
+  }
+
+  .gallery-image.drop{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .gallery-info {
+    width: 100%;
+  }
 }
