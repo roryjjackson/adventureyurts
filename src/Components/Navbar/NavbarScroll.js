@@ -7,6 +7,7 @@ window.onscroll = function() {
     document.querySelector('.navbar').classList.remove('hidden');
   } else {
     document.querySelector('.navbar').classList.add('hidden');
+    document.querySelector('.navbar-collapse').classList.add('hidden');
   }
 
   prevScrollpos = currentScrollPos;

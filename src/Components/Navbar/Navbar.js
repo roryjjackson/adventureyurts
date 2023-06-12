@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-          <img onClick={toggleNav} src='https://res.cloudinary.com/dfipoufmj/image/upload/v1668008512/bars-solid_1_kmyz0a.svg' alt='' className='bars'></img>
+        <img onClick={toggleNav} src='https://res.cloudinary.com/dfipoufmj/image/upload/v1668008512/bars-solid_1_kmyz0a.svg' alt='' className='bars'></img>
 
         <ul className={`navbar-collapse ${isOpen ? 'show' : 'hidden'}`}>
           <li className="navbar-item">
