@@ -58,6 +58,9 @@
 
 
 @media only screen and (max-width: 800px) {
+  .about-us {
+    margin-bottom: 0;
+  }
   .about-info-container h1 {
     font-size: 3rem;
   }
@@ -78,6 +81,7 @@
   }
   .about-content {
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .about-content p {
