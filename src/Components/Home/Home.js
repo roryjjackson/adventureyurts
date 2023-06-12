@@ -76,7 +76,7 @@ const Home = () => {
             <div className='stage'>
               <h3>02.</h3>
               <p>Finalize Design</p>
-              <Link to="/home">
+              <Link to="/">
                 <button class="button spec">Specs</button>
               </Link>
             </div>

@@ -18,6 +18,7 @@ code {
   --opacity-color1: #263d31c7;
   --color2: rgb(210, 210, 210);
   --color3: #e2a31d;
+  --opacity-color3: #ffae00;
   --text-color: black;
 
 }
@@ -40,9 +41,16 @@ a {
 
 }
 
+.button:hover {
+  background-color: var(--opacity-color3);
+  color: white;
+}
+
 .button a {
   color: black;
 }
+
+
 
 button {
   border: none;
