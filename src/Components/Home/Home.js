@@ -148,6 +148,8 @@ const Home = () => {
             </div>
             <h2>The Team</h2>
             <p>We are a small family run business, based in the North East. A Father and Son team combining their skills to create this entirely unique outdoor structure.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
             <Link to="/about">
               <button className='button'>
                 About us
