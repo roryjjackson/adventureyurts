@@ -1,6 +1,6 @@
 .about-us {
-  height: 100vh;
   margin-top: 20vh;
+  margin-bottom: 50px;
 }
 
 .about-info-container {
@@ -25,15 +25,20 @@
 
 .about-image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   max-width: 1250px;
   margin: 0 auto;
 }
 
+.about-content {
+  width: 30%;
+  text-align: center;
+}
+
 .about-image {
   height: 40vh;
-  width: 30%;
+  width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
