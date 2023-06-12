@@ -7,21 +7,21 @@ const Home = () => {
     <>
       <div className="home-page">
         <div className="home-page-container">
-          <h3>Durable | Beautiful</h3>
+          <h3>Durable | Functional</h3>
           <h1>Adventure Yurts</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
           <div className='stats-container'>
             <div className='stat'>
-              <h3><strong>Beautiful</strong></h3>
-              <p>Perfectly smooth, round design</p>
+              <h3><strong>4.98* Rating</strong></h3>
+              <p>From 500+ reviews</p>
             </div>
             <div className='stat'>
-              <h3><strong>All weather</strong></h3>
-              <p>Heavily insulated</p>
+              <h3><strong>All Seasons</strong></h3>
+              <p>Built for use all year round</p>
             </div>
             <div className='stat'>
-              <h3><strong>Durable</strong></h3>
-              <p>Built with high quality wood</p>
+              <h3><strong>1-3</strong></h3>
+              <p>Days to build on site</p>
             </div>
           </div>
           <div>
@@ -37,11 +37,11 @@ const Home = () => {
       <div className='design-section'>
         <div className="design-container">
           <div>
-            <h3>We build wooden yurts</h3>
-            <h2>Highly <span className='highlighted-word'>engineered</span>,</h2>
-            <h2>Highly <span className='highlighted-word'>durable</span></h2>
+            <h3>We build wooden yurts that are</h3>
+            <h2>Highly <span className='highlighted-word'>Engineered</span> and</h2>
+            <h2>Highly <span className='highlighted-word'>Durable</span></h2>
           </div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          <p>We have created an authentic wooden yurt that unlike other designs, stays true to being completely round. We deliver the highest quality build, combining the accuracy of a CNC machine with experienced hand assembly and finishing.</p>
         </div>
         <div className='design-image-container'>
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image3_nk2do2.jpg" alt="" className='design-image'></img>
@@ -56,42 +56,36 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home-page-about">
-        <div className='image-layer'>
-          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.31_dxsqrj.jpg' alt=''></img>
-        </div>
-        <div class="info-layer">
-          <div>
-            <h2>Why are we building it?</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-            <Link to="/about">
-              <button className='button'>
-                About us
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
 
       <div className='home-page-our-service'>
-        <div className='service-left'>
-          <div>
-            <p>Our process</p>
-            <h2>How it works</h2>
+        <div className='our-service-container'>
+          <div className='service-left'>
+            <div>
+              <p>Our process</p>
+              <h2>How it works</h2>
+            </div>
           </div>
-        </div>
-        <div className='service-right'>
-          <div className='stage'>
-            <h3>Stage 1</h3>
-            <p>Some text here explaing how it works</p>
-          </div>
-          <div className='stage'>
-            <h3>Stage 1</h3>
-            <p>Some text here explaing how it works</p>
-          </div>
-          <div className='stage'>
-            <h3>Stage 1</h3>
-            <p>Some text here explaing how it works</p>
+          <div className='service-right'>
+            <div className='stage'>
+              <h3>01.</h3>
+              <p>Chat With Us</p>
+              <button class="button spec">Contact</button>
+            </div>
+            <div className='stage'>
+              <h3>02.</h3>
+              <p>Finalize Design</p>
+              <button class="button spec">Specs</button>
+            </div>
+            <div className='stage'>
+              <h3>03.</h3>
+              <p>Installation</p>
+              <button class="button spec">Gallery</button>
+            </div>
+            <div className='stage'>
+              <h3>04.</h3>
+              <p>Enjoy it!</p>
+              <button class="button spec">Follow</button>
+            </div>
           </div>
         </div>
       </div>
@@ -111,6 +105,22 @@ const Home = () => {
             <Link to="/contact">
               <button className='button'>
                 Enquire now
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="home-page-about">
+        <div className='image-layer'>
+          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.31_dxsqrj.jpg' alt=''></img>
+        </div>
+        <div class="info-layer">
+          <div>
+            <h2>The team behind it</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <Link to="/about">
+              <button className='button'>
+                About us
               </button>
             </Link>
           </div>

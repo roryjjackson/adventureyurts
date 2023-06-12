@@ -48,6 +48,7 @@ nav {
 
 .bars {
   display: none;
+  padding-right: 20px;
 }
 
 .navbar-collapse {
@@ -60,7 +61,7 @@ nav {
   right: 0;
   width: 50%;
   margin-top: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
   z-index: 4;
   border-bottom-left-radius: 10px;
   padding-left: 0;

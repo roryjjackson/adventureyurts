@@ -1,12 +1,11 @@
 .home-page {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-24_at_12.05.43_l5jgli.jpg);
-  height: 700px;
+  height: 100vh;
   background-position: top;
   background-size: cover;
   display: flex;
   justify-content: left;
   align-items: center;
-  padding-top: 10vh;
 }
 
 .home-page-container h1 {
@@ -14,7 +13,6 @@
   margin-top: 10px;
   color: white;
   font-weight: bold;
-
 }
 
 .home-page-container h3 {
@@ -25,7 +23,6 @@
 
 .home-page-container p {
   font-weight: 300;
-  margin-bottom: 50px;
   max-width: 700px;
   color: white;
 }
@@ -40,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 60%;
+  margin-bottom: 20px;
 }
 
 .stat {
@@ -53,8 +51,21 @@
 
 
 @media  only screen and (min-width: 1px) and (max-width: 1250px) {
-  .home-page, .home-page-about, .design-section {
-    padding: 0 10vw;
+  .home-page, .home-page-about, .design-section, .home-page-about, .home-page-our-service, .home-page-gallery {
+    padding: 0 5vw;
+  }
+
+  .home-page {
+    padding-top: 50px;
+  }
+
+  .stat {
+    width: 300px;
+    margin-right: 20px;
+  }
+
+  .stat h3 {
+    margin-right: 50px;
   }
 
 }
@@ -110,6 +121,7 @@
 }
 
 /* about section */
+/* NOTE: css for layers is in index.css  */
 
 .home-page-about {
   position: relative;
@@ -118,37 +130,36 @@
   margin: 0 auto;
 }
 
+
 /* our service section */
 
 .home-page-our-service {
+  background: linear-gradient(to right, var(--light-color1) 0, var(--light-color1) 30vw, var(--color1) 30vw, var(--color1) 100%);
+}
+
+.our-service-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1250px; */
   margin: 0 auto 10vh auto;
   width: 100%;
+  max-width: 1250px;
+
 }
 
 .service-left {
   width: 30%;
-  /* border-top-left-radius: 10px; */
-  /* border-bottom-left-radius: 10px; */
   height: 40vh;
-  background-color: var(--light-color1);
   display: flex;
   margin: auto;
   align-items: center;
   color: var(--color2);
-
   justify-content: space-evenly;
 }
 .service-right {
   width: 70%;
-  /* border-top-right-radius: 10px; */
-  /* border-bottom-right-radius: 10px; */
   color: var(--color2);
   height: 40vh;
-  background-color: var(--color1);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -157,6 +168,34 @@
 
 .service-right h3 {
   color: var(--color3);
+}
+
+.button.spec {
+  font-size: 1rem;
+  width: 130px;
+  text-align: center;
+}
+
+@media  only screen and (max-width: 1000px) {
+  .home-page-our-service {
+    background: linear-gradient(to bottom, var(--light-color1) 0, var(--light-color1) 22vh, var(--color1) 22vh, var(--color1) 100%);
+  }
+  .our-service-container {
+    display: block;
+  }
+
+  .service-right {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    height: auto;
+    padding: 25px 0 25px;
+  }
+
+  .service-left {
+    padding: 25px 0 25px;
+    height: auto;
+  }
 }
 
 /* gallery section  */
