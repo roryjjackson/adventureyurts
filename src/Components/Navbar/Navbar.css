@@ -116,4 +116,8 @@ nav {
     width: 100vw;
     border-radius: 0;
   }
+
+  .navbar {
+    top: 0;
+  }
 }
