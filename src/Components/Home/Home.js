@@ -69,22 +69,30 @@ const Home = () => {
             <div className='stage'>
               <h3>01.</h3>
               <p>Chat With Us</p>
-              <button class="button spec">Contact</button>
+              <Link to="/contact">
+                <button class="button spec">Contact</button>
+              </Link>
             </div>
             <div className='stage'>
               <h3>02.</h3>
               <p>Finalize Design</p>
-              <button class="button spec">Specs</button>
+              <Link to="/home">
+                <button class="button spec">Specs</button>
+              </Link>
             </div>
             <div className='stage'>
               <h3>03.</h3>
               <p>Installation</p>
-              <button class="button spec">Gallery</button>
+              <Link to="/gallery">
+                <button class="button spec">Gallery</button>
+              </Link>
             </div>
             <div className='stage'>
               <h3>04.</h3>
               <p>Enjoy it!</p>
-              <button class="button spec">Follow</button>
+              <Link to="/contact">
+                <button class="button spec">Follow</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -51,7 +51,7 @@
 
 
 @media  only screen and (min-width: 1px) and (max-width: 1250px) {
-  .home-page, .home-page-about, .design-section, .home-page-about, .home-page-our-service, .home-page-gallery {
+  .home-page, .home-page-about, .design-section, .home-page-about, .home-page-our-service, .home-page-gallery, .contact-form {
     padding: 0 5vw;
   }
 
