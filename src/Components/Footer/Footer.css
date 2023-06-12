@@ -13,3 +13,9 @@
   max-width: 1250px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1250px) {
+  .footer {
+    padding: 0 5vw;
+  }
+}

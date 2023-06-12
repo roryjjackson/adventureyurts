@@ -26,42 +26,18 @@ const Gallery = () => {
   }
 
   const galleryImages = [
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686312461/WhatsApp_Image_2023-05-19_at_19.58.42_b1dsbw.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.31_dxsqrj.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-05-30_at_17.01.36_dspsak.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_12.54.19_pu9kr2.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.11_wchf8b.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_1_iutxqs.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_xkzzbm.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686312461/WhatsApp_Image_2023-05-19_at_19.58.42_b1dsbw.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303824/image8_urinth.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image1_ai7uyu.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303821/image2_lvshij.jpg'
-    },
-    {
-      img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image5_faaqm4.jpg'
-    },
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686312461/WhatsApp_Image_2023-05-19_at_19.58.42_b1dsbw.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.31_dxsqrj.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-05-30_at_17.01.36_dspsak.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_12.54.19_pu9kr2.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.11_wchf8b.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_1_iutxqs.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_xkzzbm.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686312461/WhatsApp_Image_2023-05-19_at_19.58.42_b1dsbw.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303824/image8_urinth.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image1_ai7uyu.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303821/image2_lvshij.jpg'},
+      {img: 'https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image5_faaqm4.jpg'}
   ]
 
   return (

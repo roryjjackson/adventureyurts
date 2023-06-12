@@ -3,7 +3,7 @@
   justify-content: space-between;
   max-width: 1250px;
   margin: 20vh auto;
-  height: 70vh;
+  height: auto;
 }
 
 .contact-form-content {
@@ -43,4 +43,15 @@
 
 .form-input.message textarea {
   height: 70px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .contact-form-image-container {
+    display: none;
+  }
+
+  .contact-form-content {
+    width: 100%;
+  }
 }

@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 
 const Home = () => {
+
+
   return(
     <>
       <div className="home-page">
@@ -32,6 +37,7 @@ const Home = () => {
           </Link>
           </div>
         </div>
+          {/* <h1>Adventure Yurts</h1> */}
       </div>
 
       <div className='design-section'>
@@ -120,12 +126,18 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="home-page-about">
         <div className='image-layer'>
           <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686310453/WhatsApp_Image_2023-06-01_at_09.43.31_dxsqrj.jpg' alt=''></img>
         </div>
         <div class="info-layer">
-          <div>
+          <div className='info-layer-content'>
+            <div className='social-media-icon-container'>
+              <FontAwesomeIcon icon={faInstagram} class="social-media-icon"></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faFacebook} class="social-media-icon"></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faYoutube} class="social-media-icon"></FontAwesomeIcon>
+            </div>
             <h2>The Team</h2>
             <p>We are a small family run business, based in the North East. A Father and Son team combining their skills to create this entirely unique outdoor structure.</p>
             <Link to="/about">
