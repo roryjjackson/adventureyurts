@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
 import './NavbarScroll'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNav = () => setIsOpen(!isOpen);
@@ -28,7 +31,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <img onClick={toggleNav} src='https://res.cloudinary.com/dfipoufmj/image/upload/v1668008512/bars-solid_1_kmyz0a.svg' alt='' className='bars'></img>
+        <FontAwesomeIcon onClick={toggleNav} icon={faBars} className='bars'></FontAwesomeIcon>
 
         <ul className={`navbar-collapse ${isOpen ? 'show' : 'hidden'}`}>
           <li className="navbar-item">
