@@ -32,16 +32,16 @@ const Navbar = () => {
 
         <ul className={`navbar-collapse ${isOpen ? 'show' : 'hidden'}`}>
           <li className="navbar-item">
-            <NavLink exact to="/" activeClassName="active">Home</NavLink>
+            <NavLink onClick={toggleNav} exact to="/" activeClassName="active">Home</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink to="/about" activeClassName="active">About Us</NavLink>
+            <NavLink onClick={toggleNav} to="/about" activeClassName="active">About Us</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink to="/gallery" activeClassName="active">Gallery</NavLink>
+            <NavLink onClick={toggleNav} to="/gallery" activeClassName="active">Gallery</NavLink>
           </li>
           <li className="button">
-            <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+            <NavLink onClick={toggleNav} to="/contact" activeClassName="active">Contact</NavLink>
           </li>
         </ul>
 
