@@ -102,6 +102,9 @@ button {
 }
 
 @media only screen and (max-width: 800px) {
+  .home-page-about {
+    height: 800px !important;
+  }
   .image-layer {
     position: absolute;
     height: 300px;
@@ -109,6 +112,10 @@ button {
     left: 0;
     top: 0;
     z-index: 2;
+  }
+
+  .info-layer-content {
+    padding: 0 5vw;
   }
 
   .image-layer img {
@@ -122,7 +129,7 @@ button {
     right: 0;
     top: 300px;
     width: 100vw;
-    height: 400px;
+    height: 500px;
     border: none;
     border-radius: 0;
   }

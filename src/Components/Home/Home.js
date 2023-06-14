@@ -17,22 +17,22 @@ const Home = () => {
           <p>An all wood construction, highly engineered and super insulated. We provide a unique outdoor living space that can be used all year round</p>
           <div className='stats-container'>
             <div className='stat'>
-              <h3><strong>4.98* Rating</strong></h3>
-              <p>From 500+ reviews</p>
+              <h3><strong>Highly Insulated</strong></h3>
+              <p>Cool in summer, cosy in winter</p>
             </div>
             <div className='stat'>
               <h3><strong>All Seasons</strong></h3>
               <p>Built for use all year round</p>
             </div>
             <div className='stat'>
-              <h3><strong>1-3</strong></h3>
+              <h3><strong>1-2</strong></h3>
               <p>Days to build on site</p>
             </div>
           </div>
           <div>
-          <Link to="/about">
+          <Link to="/contact">
             <button className='button'>
-              About us
+              Contact
             </button>
           </Link>
           </div>
@@ -43,11 +43,11 @@ const Home = () => {
       <div className='design-section'>
         <div className="design-container">
           <div>
-            <h3>We build wooden yurts that are</h3>
-            <h2>Highly <span className='highlighted-word'>Engineered</span> and</h2>
-            <h2>Highly <span className='highlighted-word'>Durable</span></h2>
+            <h3>We build wooden yurts that are </h3>
+            <h2>An <span className='highlighted-word'>Engineered</span> design, ensuring a <span className='highlighted-word'> strong </span>and <span className='highlighted-word'>durable </span>structure</h2>
           </div>
-          <p>We have created an authentic wooden yurt that unlike other designs, stays true to being completely round. We deliver the highest quality build, combining the accuracy of a CNC machine with experienced hand assembly and finishing.</p>
+          <p>We have created an authentic wooden yurt that stays true to being round by combining the accuracy of a CNC machine with experienced hand assembly and finishing.
+          </p>
         </div>
         <div className='design-image-container'>
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1686303822/image3_nk2do2.jpg" alt="" className='design-image'></img>
@@ -73,54 +73,37 @@ const Home = () => {
               <h2>How it works</h2>
             </div>
           </div>
+
           <div className='service-right'>
             <div className='stage'>
               <div className='stage-content'>
-                <h3>01.</h3>
-                <p>Chat With Us</p>
+                <h3>Basic Structure</h3>
+                <p>Our CNC (Computer Numerical Control) machine cuts our standard structure with 0.127mm accuracy. It is then built in house and insulated by our assembly team</p>
               </div>
-              <Link to="/contact" className='stage-button'>
-                <button class="button spec">Contact</button>
-              </Link>
             </div>
             <div className='stage'>
               <div className='stage-content'>
-                <h3>02.</h3>
-                <p>Finalize Design</p>
+                <h3>Hand Finished</h3>
+                <p>This is completelety up to you, we can finish the interior and exterior with any cladding from locally grown douglas fir to a range of composites and hardwoods</p>
               </div>
-              <Link to="/" className='stage-button'>
-                <button class="button spec">Specs</button>
-              </Link>
             </div>
             <div className='stage'>
               <div className='stage-content'>
-                <h3>03.</h3>
-                <p>Installation</p>
+                <h3>The Base</h3>
+                <p>The base needs to be custom built depending on ground conditions. We do have a wide range of options available to cope with just about any location</p>
               </div>
-              <Link to="/gallery" className='stage-button'>
-                <button class="button spec">Gallery</button>
-              </Link>
             </div>
             <div className='stage'>
               <div className='stage-content'>
-                <h3>04.</h3>
-                <p>Enjoy it!</p>
+                <h3>Assembly</h3>
+                <p>The design is built to make the construction straightforward, two people with basic DIY skills could build it in 1-2 days. We do however offer a delivery and assembly service</p>
               </div>
-              <Link to="/contact" className='stage-button'>
-                <button class="button spec">Follow</button>
-              </Link>
             </div>
           </div>
         </div>
       </div>
 
       <div className='home-page-gallery'>
-        <div className='gallery-image-container'>
-          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_1_iutxqs.jpg' alt='' className='gallery-image'></img>
-          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-23_at_17.37.40_bilyyo.jpg' alt='' className='gallery-image drop'></img>
-          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-24_at_12.05.43_l5jgli.jpg' alt='' className='gallery-image'></img>
-          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-24_at_11.54.09_v8bpbr.jpg' alt='' className='gallery-image drop'></img>
-        </div>
         <div className='gallery-info'>
           <div>
             <h3>At long last!</h3>
@@ -132,6 +115,12 @@ const Home = () => {
               </button>
             </Link>
           </div>
+        </div>
+        <div className='gallery-image-container'>
+          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307577/WhatsApp_Image_2023-05-27_at_16.53.13_1_iutxqs.jpg' alt='' className='gallery-image'></img>
+          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-23_at_17.37.40_bilyyo.jpg' alt='' className='gallery-image drop'></img>
+          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-24_at_12.05.43_l5jgli.jpg' alt='' className='gallery-image'></img>
+          <img src='https://res.cloudinary.com/dfipoufmj/image/upload/v1686307576/WhatsApp_Image_2023-05-24_at_11.54.09_v8bpbr.jpg' alt='' className='gallery-image drop'></img>
         </div>
       </div>
 
@@ -147,8 +136,7 @@ const Home = () => {
               <FontAwesomeIcon icon={faYoutube} class="social-media-icon"></FontAwesomeIcon>
             </div>
             <h2>The Team</h2>
-            <p>We are a small family run business, based in the North East. A Father and Son team combining their skills to create this entirely unique outdoor structure.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>We are a small family run business, based in the North East. As a father and son duo, we have combined modern tech skills with experienced hands on construction</p>
 
             <Link to="/about">
               <button className='button'>
