@@ -6,14 +6,17 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [number, setNumber] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', { name, email, message });
+    console.log('Form submitted:', { name, email, message, number });
 
     setName('');
     setEmail('');
+    setNumber('');
     setMessage('');
+
   };
 
   return(
@@ -21,7 +24,7 @@ const Contact = () => {
       <div className='contact-form-content'>
         <h3>Contact</h3>
         <h1>We'd Love To Hear From You</h1>
-        <p>If you have any questions about pricing, delivery, construction etc etc, feel free to let us know below</p>
+        <p>Let us know about any questions you may have</p>
         <div>
           <form onSubmit={handleSubmit}>
             <div className='form-input'>
@@ -40,6 +43,15 @@ const Contact = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <br />
+            <div className='form-input'>
+              <label>Contact Number</label>
+              <input
+                value={number}
+                onChange={(e) => setNumber(e.target.value)}
                 required
               />
             </div>
