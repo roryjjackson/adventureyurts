@@ -8,9 +8,10 @@ const About = () => {
       <div className='about-info-container'>
         <h2>About us</h2>
         <h1>A <span className='highlighted-word'>unique</span> team, a unique mission</h1>
-        <p>We both have grown up enjoying outdoor spaces. During the emergence of the Covid-19 pandemic, we set about looking at ways we could spend more time outdoors. So began the adventure of creating our own wooden yurt.</p>
+        <p>Our team is comprised of five key members. Rory (tech), Ronan (ideas), Toby (design), Michael (assembly) and Neville (assembly).
+        </p>
         <br/>
-        <p>We are a team of 5, Rory, Ronan, Toby, Michael and Neville, who all bring their unique experience to the table.</p>
+        <p>We both have all grown up enjoying outdoor spaces. During the emergence of the Covid-19 pandemic, we set about looking at ways we could spend more time outdoors. So began the adventure of creating our own wooden yurt.</p>
       </div>
 
       <div className="about-story">
@@ -22,7 +23,7 @@ const About = () => {
             <h2>About us</h2>
             <p>The covid-19 pandemic forced families to be closer together. As we all know, this can be very enjoyable at the same time as being extremely suffocating! Our outdoor spaces were needed then more than they ever had been.</p>
             <p>With this in mind, Ronan began thinking of ways he could utilize his garden in a better way, and spend more time in it throughout the year. Having seen a neighbour build a round wooden shed in his garden, he thought he could do one better. Bringing together his expertise in specialist insulation, he set about building a team to deliver on his concept: a highly insulated, robustly designed outdoor living space that could be used to entertain and generally just chill out in.</p>
-            <p>Over the course of the next 3 years, the team have tweaked, refined, edited and tampered with the design on many occasions. Now, having come out the other side of this elongated process, we have our product which we are very excited and proud of. With our 12 panel construction combining 8 circular rings for strength and durability, supported further by injected insulation, we have an outdoor space that will stand the test of time and weather.</p>
+            <p>Over the course of the next 3 years, the team have tweaked, refined, edited and tampered with the design ony occasions. Now, having come out the other side of this elongated process, we have our product which we are very excited and proud of. With our 12 panel construction combining 8 circular rings for strength and durability, supported further by injected insulation, we have an outdoor space that will stand the test of time and weather.</p>
           </div>
         </div>
       </div>

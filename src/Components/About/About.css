@@ -19,7 +19,7 @@
 
 .about-info-container p {
   font-size: .8rem;
-  max-width: 45%;
+  max-width: 75%;
   margin: 0 auto;
 }
 
@@ -120,8 +120,16 @@
   }
 }
 
-@media  screen and (max-width: 400px) {
+@media  screen and (max-width: 500px) {
   .about-content {
     height: 300px;
+  }
+
+  .about-story {
+    margin: 0 auto 50px auto;
+    height: 1050px;
+  }
+  .info-layer.color {
+    height: 750px;
   }
 }
